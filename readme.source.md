@@ -1,4 +1,4 @@
-```aura width=800 height=240 link="https://github.com/YOUR_USERNAME"
+```aura width=800 height=240 link="https://github.com/MD-Suhxib"
 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: '#08080c', borderRadius: 20, padding: 30, fontFamily: 'Inter, sans-serif', position: 'relative', overflow: 'hidden', border: '1px solid rgba(110,80,220,0.18)' }}>
   <style>
     {`
@@ -62,58 +62,151 @@ I'm **Mohammed Suhaib S**, a software developer based in **Bangalore, India**. I
 - Always exploring new technologies and better ways to build things
 - Open to collaborations, ideas and good conversations
 
-```aura width=700 height=60 link="https://github.com/YOUR_USERNAME?tab=repositories"
-<div style={{ display: 'flex', gap: 10, padding: '12px 20px', width: '100%', height: '100%', background: '#08080c', borderRadius: 30, alignItems: 'center', justifyContent: 'center', fontFamily: 'Inter, sans-serif', position: 'relative', overflow: 'hidden', border: '1px solid rgba(110,80,220,0.18)' }}>
+## Tech Stack
+
+```aura width=640 height=250 link="https://github.com/MD-Suhxib?tab=repositories"
+<div style={{ display: 'flex', flexDirection: 'column', width: '100%', height: '100%', background: '#08080c', borderRadius: 20, padding: '24px 32px', fontFamily: 'Inter, sans-serif', position: 'relative', overflow: 'hidden', border: '1px solid rgba(110,80,220,0.22)' }}>
   <style>
     {`
-      @keyframes ts-drift-right { 0%, 100% { transform: translate(0, 0); opacity: 0.8; } 50% { transform: translate(40px, -6px); opacity: 1.1; } }
-      @keyframes ts-drift-left { 0%, 100% { transform: translate(0, 0); opacity: 0.75; } 50% { transform: translate(-40px, 6px); opacity: 1; } }
-      #ts-glow-1 { animation: ts-drift-right 7.5s ease-in-out infinite; }
-      #ts-glow-2 { animation: ts-drift-left 8.3s ease-in-out infinite; }
+      @keyframes tk-r { 0%, 100% { transform: translate(0, 0); opacity: 0.8; } 50% { transform: translate(50px, -12px); opacity: 1; } }
+      @keyframes tk-l { 0%, 100% { transform: translate(0, 0); opacity: 0.75; } 50% { transform: translate(-50px, 10px); opacity: 1; } }
+      #tk-g1 { animation: tk-r 7s ease-in-out infinite; }
+      #tk-g2 { animation: tk-l 8.5s ease-in-out infinite; }
+      #tk-g3 { animation: tk-r 9s ease-in-out infinite 0.4s; }
     `}
   </style>
-  <svg width="700" height="60" style={{ position: 'absolute', top: 0, left: 0 }}>
+  <svg width="640" height="250" style={{ position: 'absolute', top: 0, left: 0 }}>
     <defs>
-      <radialGradient id="tsg1" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(110,20,210,0.55)" />
+      <radialGradient id="tkg1" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(110,20,210,0.6)" />
         <stop offset="70%" stopColor="rgba(110,20,210,0)" />
       </radialGradient>
-      <radialGradient id="tsg2" cx="50%" cy="50%" r="50%">
+      <radialGradient id="tkg2" cx="50%" cy="50%" r="50%">
         <stop offset="0%" stopColor="rgba(40,70,255,0.5)" />
         <stop offset="70%" stopColor="rgba(40,70,255,0)" />
       </radialGradient>
+      <radialGradient id="tkg3" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(255,50,180,0.35)" />
+        <stop offset="70%" stopColor="rgba(255,50,180,0)" />
+      </radialGradient>
     </defs>
-    <ellipse id="ts-glow-1" cx="200" cy="60" rx="180" ry="50" fill="url(#tsg1)" />
-    <ellipse id="ts-glow-2" cx="520" cy="60" rx="180" ry="50" fill="url(#tsg2)" />
+    <ellipse id="tk-g1" cx="120" cy="250" rx="170" ry="70" fill="url(#tkg2)" />
+    <ellipse id="tk-g2" cx="380" cy="250" rx="200" ry="80" fill="url(#tkg1)" />
+    <ellipse id="tk-g3" cx="580" cy="250" rx="160" ry="65" fill="url(#tkg3)" />
   </svg>
-  <span style={{ padding: '4px 14px', background: 'rgba(12,10,20,0.6)', color: '#f7df1e', borderRadius: 16, fontSize: 13, fontWeight: 600, border: '1px solid rgba(120,80,220,0.2)', zIndex: 10 }}>JavaScript</span>
-  <span style={{ padding: '4px 14px', background: 'rgba(12,10,20,0.6)', color: '#7eb8ff', borderRadius: 16, fontSize: 13, fontWeight: 600, border: '1px solid rgba(120,80,220,0.2)', zIndex: 10 }}>TypeScript</span>
-  <span style={{ padding: '4px 14px', background: 'rgba(12,10,20,0.6)', color: '#7ee7ff', borderRadius: 16, fontSize: 13, fontWeight: 600, border: '1px solid rgba(120,80,220,0.2)', zIndex: 10 }}>React</span>
-  <span style={{ padding: '4px 14px', background: 'rgba(12,10,20,0.6)', color: '#9ee79e', borderRadius: 16, fontSize: 13, fontWeight: 600, border: '1px solid rgba(120,80,220,0.2)', zIndex: 10 }}>Node.js</span>
-  <span style={{ padding: '4px 14px', background: 'rgba(12,10,20,0.6)', color: '#ffd878', borderRadius: 16, fontSize: 13, fontWeight: 600, border: '1px solid rgba(120,80,220,0.2)', zIndex: 10 }}>Python</span>
-  <span style={{ padding: '4px 14px', background: 'rgba(12,10,20,0.6)', color: '#ffb088', borderRadius: 16, fontSize: 13, fontWeight: 600, border: '1px solid rgba(120,80,220,0.2)', zIndex: 10 }}>SQL</span>
-  <span style={{ padding: '4px 14px', background: 'rgba(12,10,20,0.6)', color: '#e8c8ff', borderRadius: 16, fontSize: 13, fontWeight: 600, border: '1px solid rgba(120,80,220,0.2)', zIndex: 10 }}>Git</span>
+  <span style={{ fontSize: 12, fontWeight: 700, color: '#5a5a78', letterSpacing: 4, textTransform: 'uppercase', zIndex: 10 }}>Tech Stack</span>
+  <div style={{ display: 'flex', flexDirection: 'column', zIndex: 10 }}>
+    <div style={{ display: 'flex', alignItems: 'center', marginTop: 12 }}>
+      <span style={{ width: 110, fontSize: 11, fontWeight: 700, color: '#a78bfa', letterSpacing: 1.5, textTransform: 'uppercase' }}>Languages</span>
+      <div style={{ display: 'flex', gap: 8 }}>
+      <span style={{ padding: '5px 12px', background: 'rgba(14,14,26,0.85)', color: '#e6e6f5', borderRadius: 8, fontSize: 12, fontWeight: 600, border: '1px solid rgba(120,100,220,0.35)' }}>Python</span>
+      <span style={{ padding: '5px 12px', background: 'rgba(14,14,26,0.85)', color: '#e6e6f5', borderRadius: 8, fontSize: 12, fontWeight: 600, border: '1px solid rgba(120,100,220,0.35)' }}>TypeScript</span>
+      <span style={{ padding: '5px 12px', background: 'rgba(14,14,26,0.85)', color: '#e6e6f5', borderRadius: 8, fontSize: 12, fontWeight: 600, border: '1px solid rgba(120,100,220,0.35)' }}>JavaScript</span>
+      <span style={{ padding: '5px 12px', background: 'rgba(14,14,26,0.85)', color: '#e6e6f5', borderRadius: 8, fontSize: 12, fontWeight: 600, border: '1px solid rgba(120,100,220,0.35)' }}>HTML</span>
+      </div>
+    </div>
+    <div style={{ display: 'flex', alignItems: 'center', marginTop: 12 }}>
+      <span style={{ width: 110, fontSize: 11, fontWeight: 700, color: '#60a5fa', letterSpacing: 1.5, textTransform: 'uppercase' }}>Development</span>
+      <div style={{ display: 'flex', gap: 8 }}>
+      <span style={{ padding: '5px 12px', background: 'rgba(14,14,26,0.85)', color: '#e6e6f5', borderRadius: 8, fontSize: 12, fontWeight: 600, border: '1px solid rgba(120,100,220,0.35)' }}>React</span>
+      <span style={{ padding: '5px 12px', background: 'rgba(14,14,26,0.85)', color: '#e6e6f5', borderRadius: 8, fontSize: 12, fontWeight: 600, border: '1px solid rgba(120,100,220,0.35)' }}>Next.js</span>
+      <span style={{ padding: '5px 12px', background: 'rgba(14,14,26,0.85)', color: '#e6e6f5', borderRadius: 8, fontSize: 12, fontWeight: 600, border: '1px solid rgba(120,100,220,0.35)' }}>Docker</span>
+      <span style={{ padding: '5px 12px', background: 'rgba(14,14,26,0.85)', color: '#e6e6f5', borderRadius: 8, fontSize: 12, fontWeight: 600, border: '1px solid rgba(120,100,220,0.35)' }}>CI/CD</span>
+      <span style={{ padding: '5px 12px', background: 'rgba(14,14,26,0.85)', color: '#e6e6f5', borderRadius: 8, fontSize: 12, fontWeight: 600, border: '1px solid rgba(120,100,220,0.35)' }}>Git</span>
+      </div>
+    </div>
+    <div style={{ display: 'flex', alignItems: 'center', marginTop: 12 }}>
+      <span style={{ width: 110, fontSize: 11, fontWeight: 700, color: '#f472b6', letterSpacing: 1.5, textTransform: 'uppercase' }}>AI</span>
+      <div style={{ display: 'flex', gap: 8 }}>
+      <span style={{ padding: '5px 12px', background: 'rgba(14,14,26,0.85)', color: '#e6e6f5', borderRadius: 8, fontSize: 12, fontWeight: 600, border: '1px solid rgba(120,100,220,0.35)' }}>LLMs</span>
+      <span style={{ padding: '5px 12px', background: 'rgba(14,14,26,0.85)', color: '#e6e6f5', borderRadius: 8, fontSize: 12, fontWeight: 600, border: '1px solid rgba(120,100,220,0.35)' }}>RAG</span>
+      <span style={{ padding: '5px 12px', background: 'rgba(14,14,26,0.85)', color: '#e6e6f5', borderRadius: 8, fontSize: 12, fontWeight: 600, border: '1px solid rgba(120,100,220,0.35)' }}>DAGs</span>
+      <span style={{ padding: '5px 12px', background: 'rgba(14,14,26,0.85)', color: '#e6e6f5', borderRadius: 8, fontSize: 12, fontWeight: 600, border: '1px solid rgba(120,100,220,0.35)' }}>Airflow</span>
+      </div>
+    </div>
+    <div style={{ display: 'flex', alignItems: 'center', marginTop: 12 }}>
+      <span style={{ width: 110, fontSize: 11, fontWeight: 700, color: '#5eead4', letterSpacing: 1.5, textTransform: 'uppercase' }}>Database</span>
+      <div style={{ display: 'flex', gap: 8 }}>
+      <span style={{ padding: '5px 12px', background: 'rgba(14,14,26,0.85)', color: '#e6e6f5', borderRadius: 8, fontSize: 12, fontWeight: 600, border: '1px solid rgba(120,100,220,0.35)' }}>SQL</span>
+      <span style={{ padding: '5px 12px', background: 'rgba(14,14,26,0.85)', color: '#e6e6f5', borderRadius: 8, fontSize: 12, fontWeight: 600, border: '1px solid rgba(120,100,220,0.35)' }}>MySQL</span>
+      <span style={{ padding: '5px 12px', background: 'rgba(14,14,26,0.85)', color: '#e6e6f5', borderRadius: 8, fontSize: 12, fontWeight: 600, border: '1px solid rgba(120,100,220,0.35)' }}>Supabase</span>
+      <span style={{ padding: '5px 12px', background: 'rgba(14,14,26,0.85)', color: '#e6e6f5', borderRadius: 8, fontSize: 12, fontWeight: 600, border: '1px solid rgba(120,100,220,0.35)' }}>Firebase</span>
+      </div>
+    </div>
+  </div>
 </div>
 ```
 
 ## Let's Connect
 
-```aura width=130 height=44 link="https://github.com/YOUR_USERNAME" inline align=center
-<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: 'linear-gradient(135deg, #0b0b14, #16102b)', borderRadius: 14, fontFamily: 'Inter, sans-serif', border: '1px solid rgba(130,100,255,0.45)' }}>
-  <span style={{ fontSize: 14, fontWeight: 700, color: '#fafafa' }}>GitHub</span>
+```aura width=150 height=44 link="https://github.com/MD-Suhxib" inline align=center
+<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: '#0b0b14', borderRadius: 22, fontFamily: 'Inter, sans-serif', position: 'relative', overflow: 'hidden' }}>
+  <svg width="150" height="44" style={{ position: 'absolute', top: 0, left: 0 }}>
+    <defs>
+      <linearGradient id="ghshine" x1="-100%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stopColor="#8b5cf6" stopOpacity="0.25" />
+        <stop offset="40%" stopColor="#8b5cf6" stopOpacity="0.5" />
+        <stop offset="50%" stopColor="#e9d5ff" stopOpacity="1" />
+        <stop offset="60%" stopColor="#8b5cf6" stopOpacity="0.5" />
+        <stop offset="100%" stopColor="#8b5cf6" stopOpacity="0.25" />
+        <animate attributeName="x1" values="-100%;100%" dur="2.8s" repeatCount="indefinite" />
+        <animate attributeName="x2" values="0%;200%" dur="2.8s" repeatCount="indefinite" />
+      </linearGradient>
+      <filter id="ghglow" x="-20%" y="-50%" width="140%" height="200%">
+        <feGaussianBlur stdDeviation="2.5" />
+      </filter>
+    </defs>
+    <rect x="1.5" y="1.5" width="147" height="41" rx="20.5" ry="20.5" fill="none" stroke="url(#ghshine)" strokeWidth="3" filter="url(#ghglow)" />
+    <rect x="1" y="1" width="148" height="42" rx="21" ry="21" fill="none" stroke="url(#ghshine)" strokeWidth="1.5" />
+  </svg>
+  <span style={{ fontSize: 14, fontWeight: 700, color: '#fafafa', zIndex: 10 }}>GitHub</span>
 </div>
 ```
-```aura width=130 height=44 link="https://www.linkedin.com/in/YOUR_LINKEDIN" inline align=center
-<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: 'linear-gradient(135deg, #07101c, #0a2040)', borderRadius: 14, fontFamily: 'Inter, sans-serif', border: '1px solid rgba(60,140,255,0.45)' }}>
-  <span style={{ fontSize: 14, fontWeight: 700, color: '#fafafa' }}>LinkedIn</span>
+```aura width=150 height=44 link="https://www.linkedin.com/in/md-suhaib/" inline align=center
+<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: '#07101c', borderRadius: 22, fontFamily: 'Inter, sans-serif', position: 'relative', overflow: 'hidden' }}>
+  <svg width="150" height="44" style={{ position: 'absolute', top: 0, left: 0 }}>
+    <defs>
+      <linearGradient id="lishine" x1="-100%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stopColor="#3b82f6" stopOpacity="0.25" />
+        <stop offset="40%" stopColor="#3b82f6" stopOpacity="0.5" />
+        <stop offset="50%" stopColor="#bae6fd" stopOpacity="1" />
+        <stop offset="60%" stopColor="#3b82f6" stopOpacity="0.5" />
+        <stop offset="100%" stopColor="#3b82f6" stopOpacity="0.25" />
+        <animate attributeName="x1" values="-100%;100%" dur="2.8s" repeatCount="indefinite" />
+        <animate attributeName="x2" values="0%;200%" dur="2.8s" repeatCount="indefinite" />
+      </linearGradient>
+      <filter id="liglow" x="-20%" y="-50%" width="140%" height="200%">
+        <feGaussianBlur stdDeviation="2.5" />
+      </filter>
+    </defs>
+    <rect x="1.5" y="1.5" width="147" height="41" rx="20.5" ry="20.5" fill="none" stroke="url(#lishine)" strokeWidth="3" filter="url(#liglow)" />
+    <rect x="1" y="1" width="148" height="42" rx="21" ry="21" fill="none" stroke="url(#lishine)" strokeWidth="1.5" />
+  </svg>
+  <span style={{ fontSize: 14, fontWeight: 700, color: '#fafafa', zIndex: 10 }}>LinkedIn</span>
 </div>
 ```
-```aura width=130 height=44 link="mailto:YOUR_EMAIL@example.com" inline align=center
-<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: 'linear-gradient(135deg, #0d0008, #1a0012)', borderRadius: 14, fontFamily: 'Inter, sans-serif', border: '1px solid rgba(220,60,120,0.45)' }}>
-  <span style={{ fontSize: 14, fontWeight: 700, color: '#fafafa' }}>Email me</span>
+```aura width=150 height=44 link="mailto:mohammedsuhaib.0294@gmail.com" inline align=center
+<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: '#14060e', borderRadius: 22, fontFamily: 'Inter, sans-serif', position: 'relative', overflow: 'hidden' }}>
+  <svg width="150" height="44" style={{ position: 'absolute', top: 0, left: 0 }}>
+    <defs>
+      <linearGradient id="emshine" x1="-100%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stopColor="#ec4899" stopOpacity="0.25" />
+        <stop offset="40%" stopColor="#ec4899" stopOpacity="0.5" />
+        <stop offset="50%" stopColor="#fbcfe8" stopOpacity="1" />
+        <stop offset="60%" stopColor="#ec4899" stopOpacity="0.5" />
+        <stop offset="100%" stopColor="#ec4899" stopOpacity="0.25" />
+        <animate attributeName="x1" values="-100%;100%" dur="2.8s" repeatCount="indefinite" />
+        <animate attributeName="x2" values="0%;200%" dur="2.8s" repeatCount="indefinite" />
+      </linearGradient>
+      <filter id="emglow" x="-20%" y="-50%" width="140%" height="200%">
+        <feGaussianBlur stdDeviation="2.5" />
+      </filter>
+    </defs>
+    <rect x="1.5" y="1.5" width="147" height="41" rx="20.5" ry="20.5" fill="none" stroke="url(#emshine)" strokeWidth="3" filter="url(#emglow)" />
+    <rect x="1" y="1" width="148" height="42" rx="21" ry="21" fill="none" stroke="url(#emshine)" strokeWidth="1.5" />
+  </svg>
+  <span style={{ fontSize: 14, fontWeight: 700, color: '#fafafa', zIndex: 10 }}>Email me</span>
 </div>
 ```
 
 <br/>
-
-<p align="center"><sub>Made with <a href="https://www.npmjs.com/package/readme-aura">readme-aura</a></sub></p>
