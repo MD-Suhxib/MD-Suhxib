@@ -4,7 +4,7 @@
 
 I'm **Mohammed Suhaib S**, a software developer based in **Bangalore, India**. I enjoy turning ideas into clean, reliable software and picking up new tools along the way.
 
-* Currently working as a Software Developer
+* Currently turning curious ideas into working software
 * Always exploring new technologies and better ways to build things
 * Open to collaborations, ideas and good conversations
 
@@ -13,7 +13,7 @@ I'm **Mohammed Suhaib S**, a software developer based in **Bangalore, India**. I
 ## Let's Connect
 
 <p align="center">
-<a href="https://github.com/YOUR_USERNAME"><img src="./.github/assets/readme-aura-component-2-812ac624.svg" width="130" height="44" /></a><a href="https://www.linkedin.com/in/YOUR_LINKEDIN"><img src="./.github/assets/readme-aura-component-3-3636e851.svg" width="130" height="44" /></a><a href="mailto:YOUR_EMAIL@example.com"><img src="./.github/assets/readme-aura-component-4-bb04c7c6.svg" width="130" height="44" /></a>
+<a href="https://github.com/MD-Suhxib"><img src="./.github/assets/readme-aura-component-2-812ac624.svg" width="130" height="44" /></a><a href="https://www.linkedin.com/in/md-suhaib/"><img src="./.github/assets/readme-aura-component-3-3636e851.svg" width="130" height="44" /></a><a href="mailto:mohammedsuhaib.0294@gmail.com"><img src="./.github/assets/readme-aura-component-4-bb04c7c6.svg" width="130" height="44" /></a>
 </p>
 
 <br/>
