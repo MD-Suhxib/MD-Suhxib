@@ -18,4 +18,4 @@ I'm **Mohammed Suhaib S**, a software developer based in **Bangalore, India**. I
 
 <br/>
 
-<p align="center"><sub>Made with <a href="https://www.npmjs.com/package/readme-aura">readme-aura</a></sub></p>
+
